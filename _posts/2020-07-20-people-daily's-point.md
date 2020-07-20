@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "人民日观点"
+title:      "人民日报观点"
 subtitle:   "小学生向往科学会让“未来之光”更闪亮"
 date:       2020-07-20 23:59:59
 author:     "风沐白"

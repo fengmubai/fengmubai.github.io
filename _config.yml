@@ -1,6 +1,6 @@
 # Site settings
 title: 风沐白的博客
-SEOTitle: 风沐白的博客 | FengMubai Blog
+SEOTitle: 风沐白的博客 | Mr. WoW Blog
 header-img: img/home-bg.jpg
 email: jiangpeyton@gmail.com
 description: ""
@@ -96,7 +96,7 @@ service-worker: true
 
 
 # MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+page-mathjax: true
 
 
 

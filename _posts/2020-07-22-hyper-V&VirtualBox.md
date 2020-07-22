@@ -96,6 +96,6 @@ bcdedit /set hypervisorlaunchtype auto
 
 1. [[图]Windows 10 Version 2004新功能盘点 - Windows 10 - cnBeta.COM](https://www.cnbeta.com/articles/tech/952745.htm)
 2. [【杂项】Virtualbox 6与Hyper-V共存](https://www.rehtt.com/index.php/archives/225/)
-3. [安装 WSL 2 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-install)
+3. [安装 WSL 2 \| Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-install)
 4. [参考的对象类型不支持尝试的操作。 · Issue #4194 · microsoft/WSL](https://github.com/microsoft/WSL/issues/4194)
 5. [Windows 10 打开Windows Sandbox提示找不到虚拟机监控程序，请启用虚拟机监控程序支持 - Microsoft Community](https://answers.microsoft.com/zh-hans/windows/forum/all/windows-10-%E6%89%93%E5%BC%80windows/286f8a35-6a74-433c-b00f-bcd03812d180)

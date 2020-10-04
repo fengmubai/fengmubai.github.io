@@ -2,7 +2,7 @@
 layout:     post
 title:      "Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It"
 subtitle:   "理解开发者犯下的安全错误：对BIBIFI的定性分析"
-date:       2020-07-22 13:04:59
+date:       2020-10-04 13:20:59
 author:     "风沐白"
 catalog: true
 tags:

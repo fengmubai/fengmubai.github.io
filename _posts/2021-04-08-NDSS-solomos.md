@@ -31,7 +31,7 @@ tags:
 现代浏览器将favicon存储在一个单独的本地数据库*Favicon Cache*, 每个icon都有属于自己的缓存条目, 包括: URL, icon ID, TTL.
 这些缓存的默认存活期限为6小时, 最长可达1年, 而且是受网站控制的.
 
-[Favicon 示例](https://raw.githubusercontent.com/entr0pia/entr0pia.github.io/master/img/in-post/2021-04-08/favicon_examples.png)
+[Favicon 示例](https://raw.githubusercontent.com/entr0pia/entr0pia.github.io/master/img/in-post/2021-04-08/favicon_examples.jpg)
 
 **缓存** 只要favicon的数据格式正确, 任何网站都可以将icon写入缓存.
 缓存中的icon ID与网页中的不一致或者过期时, 浏览器就会更新这些缓存.
@@ -64,7 +64,7 @@ icon在缓存内表示1, 不在缓存表示0.
 然后将用户重定向到bit为1的子路径中, 将icon写入缓存; 而bit为0的对应的子路径被跳过.
 重定向完成后, 用户的ID被存储到favicon缓存中.
 
-[写入模式的请求时序图](https://raw.githubusercontent.com/entr0pia/entr0pia.github.io/master/img/in-post/2021-04-08/write.png)
+[写入模式的请求时序图](https://raw.githubusercontent.com/entr0pia/entr0pia.github.io/master/img/in-post/2021-04-08/write.jpg)
 
 ### B. 读取模式
 
@@ -75,7 +75,7 @@ icon在缓存内表示1, 不在缓存表示0.
 同时, 站点对该icon的请求返回404代码, 这样就不会影响到用户ID.
 换言之, 在读取模式中, 用户ID始终不变.
 
-[读取模式的请求时序图](https://raw.githubusercontent.com/entr0pia/entr0pia.github.io/master/img/in-post/2021-04-08/read.png)
+[读取模式的请求时序图](https://raw.githubusercontent.com/entr0pia/entr0pia.github.io/master/img/in-post/2021-04-08/read.jpg)
 
 为保证正确处理并发请求, 站点还是额外设置了一个cookie.
 但这一cookie不是为了追踪用户, 仅仅标识同一会话.
